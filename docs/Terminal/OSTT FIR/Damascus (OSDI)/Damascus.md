@@ -11,9 +11,9 @@
 ## Airspace - Class B
 **OSDI_APP** is responsible for the entire Baghdad TMA airspace from `A010` and `A030` to `FL150`.
 
-!!! info   
-  ILS and VOR in Damascus have been out of use since 2019.   
-  RNP and Visual approaches only shall be assigned.  
+!!! info
+   ILS and VOR in Damascus have been out of use since 2019.   
+   RNP and Visual approaches only shall be assigned.       
 
 ![Baghdad TMA ORBI_APP](img/ORBI_APP.png)
 
@@ -37,9 +37,9 @@
 |     | North | LEBOR2  | direct **DAL** - at MNM **5000** (but before **DAL**) **LT** direct ADRAA **RT** to MALOULA - LEBOR |
 |     | West  | N/A | N/A
 
-!!! warning   
-  Even though the departure procedure instructs pilots to hold at **DAM**, the VOR is out of service and therefore a hold cannot be performed.   
-  Pilots should have their FMC to route from **DAM** to the next waypoint thereafter. It is advised that the controller after departure gives a direct to the next waypoint along with    the climb clearance.
+!!! warning     
+    Even though the departure procedure instructs pilots to hold at **DAM**, the VOR is out of service and therefore a hold cannot be performed.   
+    Pilots should have their FMC to route from **DAM** to the next waypoint thereafter. It is advised that the controller after departure gives a direct to the next waypoint along with    the climb clearance.
 
 ### Controller Actions
 
@@ -57,10 +57,10 @@ Aircraft will contact OSDI_APP after departure from TWR with an initial climb of
 |     |      | TANGO1C | TAN - SULAF - ABBAS - SOFIA | 
 
 !!! warning   
-  Final segment of KILO and TANGO arrivals will be directed by ATC to either **DAL**, **DAM** or **ABD** depending on the current runway configuration.
-  FMS coding example:
-  - KILO 1C to **DAL** K 1CDAL
-  - TANGO 1C to **DAL** T 1CDAL
+    Final segment of KILO and TANGO arrivals will be directed by ATC to either **DAL**, **DAM** or **ABD** depending on the current runway configuration.   
+    FMS coding example:   
+    - KILO 1C to **DAL** K 1CDAL   
+    - TANGO 1C to **DAL** T 1CDAL   
 
 ### Controller Actions
 Aircraft will be handed off from OSTT_CTR already given an arrival clearance, however a runway will not be assigned. The standard approach to assign is depending on the runway configuration and weather conditions. If: 
@@ -71,12 +71,14 @@ Aircraft will be handed off from OSTT_CTR already given an arrival clearance, ho
 
 ![Damascus Visual 05L](img/OSDI_VIS.png)
 
-!!! phraseology   
-  - 05R |
-  **OSDI_APP**: UAE913 expect visual runway 05R from SOFIA, descend and maintain 8000 feet QNH 1013.
-  - 23L |
-  **OSDI_APP**: UAE913 expect RNAV runway 23L from SOFIA, DAL transition, descend and maintain 8000 feet QNH 1013.
-  - Hold | **OSDI_APP**: UAE913 cleared direct DAL, enter hold over DAL as published.
+!!! phraseology "O5R"  
+    **OSDI_APP**: UAE913 expect visual runway 05R from SOFIA, descend and maintain 8000 feet QNH 1013.   
+
+!!! phraseology "23L"   
+    **OSDI_APP**: UAE913 expect RNAV runway 23L from SOFIA, DAL transition, descend and maintain 8000 feet QNH 1013.
+
+!!! phraseology "DAL Hold"   
+    **OSDI_APP**: UAE913 cleared direct DAL, enter hold over DAL as published.   
 
 Aircraft must be cleared to 3600 feet before being given an approach clearance. However, 3600 feet may not be given until they are within **3NM** of the intercept point as the MSA is 5000 feet in the south and 9000 in the north.
 
