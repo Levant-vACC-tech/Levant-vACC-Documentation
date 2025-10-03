@@ -31,6 +31,6 @@ This SOP is applicable to all VATSIM air traffic controllers operating within th
 All controllers are expected to adhere to the procedures set forth in this document in conjunction with the VATSIM Global Controller Ratings Policy, the VATSIM Code of Conduct, and applicable local policies.
 
 ## Authority & Oversight
-The development, maintenance, and enforcement of this SOP fall under the authority of the ATC Operations Department and the Arabian vACC leadership. Oversight is coordinated in line with regional and divisional policies set by the **Middle East & North Africa Division (VATMENA)** and the **VATSIM Network**.
+The development, maintenance, and enforcement of this SOP fall under the authority of the ATS department within the Levant vACC. Oversight is coordinated in line with regional and divisional policies set by the **Middle East & North Africa Division (VATMENA)** and the **VATSIM Network**.
 
 Amendments or updates to this SOP may be issued as needed to reflect procedural changes, software updates, or coordination adjustments with neighboring FIRs. All controllers are responsible for remaining up to date with the latest version of this SOP and any associated supplements or notices.
