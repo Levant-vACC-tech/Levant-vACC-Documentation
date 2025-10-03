@@ -83,5 +83,3 @@ Aircraft will be handed off from OSTT_CTR already given an arrival clearance, ho
     **OSDI_APP**: UAE913 cleared direct DAL, enter hold over DAL as published.   
 
 Aircraft must be cleared to 3600 feet before being given an approach clearance. However, 3600 feet may not be given until they are within **3NM** of the intercept point as the MSA is 5000 feet in the south and 9000 in the north.
-
-iudsgjkbhdfgshijkudfsfgsjkhdfgsiouhfgshioudfgsdfgshiodfgshioudfsiohdfsdghiosfdfshiouadefhiouadfsiohdfshio dfrwhiodfshio 
