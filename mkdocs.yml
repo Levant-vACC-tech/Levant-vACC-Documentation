@@ -1,0 +1,162 @@
+site_name: Levant vACC Controller Library
+site_url: https://library.levantvacc.com
+repo_url: https://github.com/Levant-vACC/Levant-vACC-library
+edit_uri: ""
+copyright: ""
+repo_name: levant-vacc/library
+theme:
+  name: material
+  custom_dir: overrides
+  palette:
+    # Dark Mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark mode
+      primary: black
+      accent: deep purple
+
+    # Light Mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light mode
+      primary: blue
+      accent: deep orange
+
+  logo: assets/logobg.png
+  favicon: assets/logobg.png
+  
+  features:
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.path
+    - header.autohide
+    - navigation.footer
+  icon:
+    repo: fontawesome/brands/github
+    annotation: material/plus-circle
+    annotation: material/minus-circle
+    admonition:
+      example: fontawesome/solid/headset
+  font:
+    text: Maven Pro
+extra:
+  social:
+    - icon: fontawesome/brands/twitch
+      link: https://twitch.tv/levant_vacc
+    - icon: fontawesome/brands/discord
+      link: https://vats.im/lev/discord 
+    - icon: fontawesome/brands/instagram
+      link: https://instagram.com/levant_vacc
+    - icon: fontawesome/brands/github
+      link: https://github.com/levant-vACC
+
+plugins:
+  - search:
+      lang: en
+  - git-revision-date-localized:
+      type: date
+      strict: false
+  - glightbox:
+      touchNavigation: true
+      effect: zoom
+      width: 100%
+      height: auto
+      zoomable: true
+      draggable: false
+  - mermaid2
+
+#styling
+extra_css:
+  - stylesheets/extra.css
+  - stylesheets/admonitions.css
+  - stylesheets/navigation.css
+
+#page navigation
+nav:
+  - Home: index.md 
+  - Pilots:
+    - Overview: Pilots/index.md 
+    - Baghdad:
+      - Airport Overview: Pilots/Baghdad/Airport Overview.md
+      - Departing Aircraft: Pilots/Baghdad/Departing Aircraft.md
+      - Arriving Aircraft: Pilots/Baghdad/Arriving Aircraft.md
+  - Aerodromes: 
+    - Overview: Aerodromes/index.md
+    - OLBB FIR: 
+      - Beirut (OLBA): Aerodromes/OLBB FIR/Beirut (OLBA)/Beirut.md
+    - ORBB FIR:
+      - Al-Najaf (ORNI): Aerodromes/ORBB FIR/Al-Najaf (ORNI)/Al-Najaf.md
+      - Baghdad (ORBI): Aerodromes/ORBB FIR/Baghdad (ORBI)/Baghdad.md
+      - Basra (ORMM): Aerodromes/ORBB FIR/Basra (ORMM)/Basra.md
+      - Erbil (ORER): Aerodromes/ORBB FIR/Erbil (ORER)/Erbil.md
+      - Kirkuk (ORKK): Aerodromes/ORBB FIR/Kirkuk (ORKK)/Kirkuk.md
+      - Mosul (ORBM): Aerodromes/ORBB FIR/Mosul (ORBM)/Mosul.md
+      - Sulaimaniyah (ORSU): Aerodromes/ORBB FIR/Sulaimaniyah (ORSU)/Sulaimaniyah.md
+    - OSTT FIR:
+      - Aleppo (OSAP): Aerodromes/OSTT FIR/Aleppo (OSAP)/Aleppo.md
+      - Damascus (OSDI): Aerodromes/OSTT FIR/Damascus (OSDI)/Damascus.md
+      - Deir ez-Zor (OSDZ): Aerodromes/OSTT FIR/Deir ez-Zor (OSDZ)/Deir ez-Zor.md
+      - Qamishli (OSKL): Aerodromes/OSTT FIR/Qamishli (OSKL)/Qamishli.md
+      - Latakia (OSLK): Aerodromes/OSTT FIR/Latakia (OSLK)/Latakia.md
+  - Terminal:
+    - Overview: Terminal/index.md
+    - OLBB FIR: 
+      - Beirut Approach (OLBA_APP): Terminal/OLBB FIR/Beirut Approach (OLBA_APP)/Beirut.md
+    - ORBB FIR:
+      - Kirkuk TMA (Baghdad Approach): Terminal/ORBB FIR/Baghdad Approach (ORKK_APP)/ORKK_APP.md
+      - Baghdad TMA  (Baghdad Approach): Terminal/ORBB FIR/Baghdad Approach (ORBI_APP)/ORBI_APP.md
+      - Ali TMA (Baghdad Approach): Terminal/ORBB FIR/Baghdad Approach (ORMM_APP)/ORMM_APP.md
+    - OSTT FIR:
+      - Damascus Approach (OSDI_APP): Terminal/OSTT FIR/Damascus (OSDI)/Damascus.md
+      - Aleppo Radar (OSAP_APP): Terminal/OSTT FIR/Aleppo (OSTT)/Aleppo.md
+  - Enroute:
+    - Overview: Enroute/index.md
+    - OLBB FIR: 
+      - Beirut Radar (OLBB_CTR): Enroute/OLBB FIR/Beirut Radar (OLBB_CTR)/Beirut Radar (OLBB_CTR).md
+    - ORBB FIR:
+      - Baghdad Control (ORBB_*_CTR): Enroute/ORBB FIR/Baghdad Control (ORBB_*_CTR)/Baghdad Control (ORBB_*_CTR).md
+    - OSTT FIR:
+      - Damascus Control (OSTT_CTR): Enroute/OSTT FIR/Damascus Control (OSTT_CTR)/Damascus Control (OSTT_CTR).md
+  - Events: 
+    - Overview: Events/index.md
+  - Tier 2 Positions:
+    - Al-Asad Airbase (ORAA): Tier 2 Positions/Al-Asad Airbase (ORAA)/Al-Asad.md
+  - Training documents:
+    - Overview: Training documents/index.md
+  - vACC policies: 
+    - ATS Policy: vACC policies/ATS Policy/ATS Policy.md
+    - ATS Training Policy: vACC policies/ATS Policy/ATS Training Policy.md
+
+
+
+markdown_extensions:
+  - admonition: {}
+  - meta: {}
+  - attr_list: {}
+  - md_in_html: {}
+  - pymdownx.blocks.caption:
+  - pymdownx.tabbed:
+     alternate_style: true
+  - pymdownx.details: {} # Additional features to admonition
+  - pymdownx.caret: {} # Formatting Extension
+  - pymdownx.critic: {} # Alternate Formatting Extension
+  - pymdownx.mark: {} # Formatting Extension
+  - pymdownx.tilde: {} # Formatting Extension
+  - pymdownx.keys: {} # Visual keyboard keys extension
+  - pymdownx.superfences: 
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji: # Allows emoji style inline embeds for icons
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - md_in_html: {} #enables the use of image figures
+  - abbr: {}
+  - pymdownx.snippets: {}
