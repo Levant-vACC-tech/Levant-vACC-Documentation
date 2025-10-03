@@ -14,10 +14,10 @@
 **OSDI_APP** is responsible for the entire Baghdad TMA airspace from `A010` and `A030` to `FL150`.
 
 !!! info   
-   ILS and VOR in Damascus have been out of use since 2019.   
-   RNP and Visual approaches only shall be assigned.       
+    ILS and VOR in Damascus have been out of use since 2019.   
+    RNP and Visual approaches only shall be assigned.       
 
-![Baghdad TMA ORBI_APP](img/ORBI_APP.png)
+![Damascus TMA](img/OSDI_AOR.png)
 
 ## Departure Procedures
 
@@ -83,4 +83,3 @@ Aircraft will be handed off from OSTT_CTR already given an arrival clearance, ho
     **OSDI_APP**: UAE913 cleared direct DAL, enter hold over DAL as published.   
 
 Aircraft must be cleared to 3600 feet before being given an approach clearance. However, 3600 feet may not be given until they are within **3NM** of the intercept point as the MSA is 5000 feet in the south and 9000 in the north.
-
