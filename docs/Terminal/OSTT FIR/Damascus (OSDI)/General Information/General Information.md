@@ -4,7 +4,8 @@
 
 ### List of ATS callsigns
 
-| ***Callsign*** | ***Logon Callsign*** | ***Abbreviation*** | ***Frequency*** | 
+| ***Callsign*** | ***Logon Callsign*** | ***Abbreviation*** | ***Frequency*** |
+| -------------- | -------------------- | ------------------ | --------------- | 
 | Damascus ATIS | OSDI_ATIS | ATIS DM | 128.225 |
 | Damascus Ground | OSDI_GND | ... | 121.900 |
 | Aleppo Ground | OSAP_GND | ... | 119.800 |
@@ -20,4 +21,5 @@
 ### ATS Airspace
 
 | **Airspace** | **Classification** | **Vertical Limits** | **Transition altitude** | **Transition Level** |
+| ------------ | ------------------ | ------------------- | ----------------------- | -------------------- |
 | Damascus TMA | B | 1000 ft to FL150 | 13000 ft | FL150 |
