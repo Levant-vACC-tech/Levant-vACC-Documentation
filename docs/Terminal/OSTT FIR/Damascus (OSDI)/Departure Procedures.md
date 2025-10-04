@@ -4,7 +4,7 @@
 
 All aircraft departing the Damascus CTA via a common exit point shall be separated longitudinally by at least **10NM** constant or increasing.
 
-If this is not possible, then the concerned controller shall ~~blame the tower~~ hand the aircraft off to Damascus Control in climbing or with a cleared altitude of **13000ft** once separation is assured.
+If this is not possible, then the concerned controller shall <del>blame the tower</del> hand the aircraft off to Damascus Control in climbing or with a cleared altitude of **13000ft** once separation is assured.
 
 ## Speed control
 

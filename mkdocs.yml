@@ -163,3 +163,4 @@ markdown_extensions:
   - md_in_html: {} #enables the use of image figures
   - abbr: {}
   - pymdownx.snippets: {}
+  - del_ins: {}
