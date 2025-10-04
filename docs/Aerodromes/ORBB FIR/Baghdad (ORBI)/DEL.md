@@ -41,9 +41,9 @@ Departing aircraft shall be instructed to report ready for pushback.
     At Baghdad no SIDs are used, aircraft receive departure instructions in their line up/takeoff clearance, thus delivery (or ground) doesn't need to provide departure instructions.  
 
 ### 3.2.3 Aircraft requiring a reroute
-If an aircraft requires a reroute, they shall be informed of such as soon as they have connected to the network by private message or on frequency. The use of “.rte" and “.rtef" aliases are encouraged.
+If an aircraft requires a reroute, they shall be informed of such as soon as they have connected to the network by private message or on frequency. 
 
-An aircraft shall be issued a reroute by GMC if the pilot’s route doesn’t comply with the standard routes laid out in Table 3-2.
+An aircraft shall be issued a reroute by delivery if the pilot’s route doesn’t comply with the standard routes laid out in Table 3-2.
 
 ## 3.3 Departure Procedures
 ### 3.3.1 RNAV Standard instrument departures

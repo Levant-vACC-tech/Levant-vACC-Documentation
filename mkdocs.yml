@@ -3,7 +3,7 @@ site_url: https://levantdocs.net
 repo_url: https://github.com/Levant-vACC-tech/Levant-vACC-Documentation
 edit_uri: ""
 copyright: ""
-repo_name: levant-vacc/library
+repo_name: levant-vACC-tech/Levant-vACC-Documentation
 theme:
   name: material
   custom_dir: overrides
