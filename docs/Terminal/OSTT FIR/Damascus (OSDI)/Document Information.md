@@ -21,7 +21,7 @@ This document serves as a reference for both newly certified and experienced con
 While this SOP focuses specifically on terminal area operations, it complements and should be used in nonjunction with other local SOPs, including those for aerodromes within the TMA, adherance to procedural operations and external LOAs.
 
 ## Applicability
-This SOP is applicable to all VATSIM air traffic controllers operating within the Doha FIR at the enroute level, including:
+This SOP is applicable to all VATSIM air traffic controllers operating within the Damascus FIR at the enroute level, including:
 
 - Damascus TMA Controllers
 - Controllers operating in a top-down capacity from an enroute (CTR) position.
