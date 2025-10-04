@@ -1,5 +1,5 @@
 site_name: Levant vACC Controller Library
-site_url: https://library.levantvacc.com
+site_url: https://levantdocs.net
 repo_url: https://github.com/Levant-vACC-tech/Levant-vACC-Documentation
 edit_uri: ""
 copyright: ""
@@ -163,3 +163,4 @@ markdown_extensions:
   - md_in_html: {} #enables the use of image figures
   - abbr: {}
   - pymdownx.snippets: {}
+  - del_ins: {}
