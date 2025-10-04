@@ -1,6 +1,6 @@
 site_name: Levant vACC Controller Library
 site_url: https://library.levantvacc.com
-repo_url: https://github.com/Levant-vACC/Levant-vACC-library
+repo_url: https://github.com/Levant-vACC-tech/Levant-vACC-Documentation
 edit_uri: ""
 copyright: ""
 repo_name: levant-vacc/library
@@ -109,10 +109,11 @@ nav:
     - OSTT FIR:
       - Damascus Approach (OSDI_APP): 
         - Document Information: Terminal/OSTT FIR/Damascus (OSDI)/Document Information.md
-        - General Information: Terminal/OSTT FIR/Damascus (OSDI)/General Information.md
-        - General Procedures: Terminal/OSTT FIR/Damascus (OSDI)/General Procedures.md
-        - Areas Of Responsibility: Terminal/OSTT FIR/Damascus (OSDI)/Areas Of Responsibility.md
-        - Arrival Procedures: Terminal/OSTT FIR/Damascus (OSDI)/Arrival Procedures.md
+        - 1. General Information: Terminal/OSTT FIR/Damascus (OSDI)/General Information.md
+        - 2. General Procedures: Terminal/OSTT FIR/Damascus (OSDI)/General Procedures.md
+        - 3. Areas Of Responsibility: Terminal/OSTT FIR/Damascus (OSDI)/Areas Of Responsibility.md
+        - 4. Transfer Procedures: Terminal/OSTT FIR/Damascus (OSDI)/Transfer Procedures.md
+        - 5. Arrival Procedures: Terminal/OSTT FIR/Damascus (OSDI)/Arrival Procedures.md
 
       - Aleppo Radar (OSAP_APP): Terminal/OSTT FIR/Aleppo (OSTT)/Aleppo.md
   - Enroute:
@@ -123,12 +124,11 @@ nav:
       - Baghdad Control (ORBB_*_CTR): Enroute/ORBB FIR/Baghdad Control (ORBB_*_CTR)/Baghdad Control (ORBB_*_CTR).md
     - OSTT FIR:
       - Damascus Control (OSTT_CTR): Enroute/OSTT FIR/Damascus Control (OSTT_CTR)/Damascus Control (OSTT_CTR).md
-  - Events: 
-    - Overview: Events/index.md
   - Tier 2 Positions:
     - Al-Asad Airbase (ORAA): Tier 2 Positions/Al-Asad Airbase (ORAA)/Al-Asad.md
-  - Training documents:
+  - Controller Skills:
     - Overview: Training documents/index.md
+    - Classes of Airspace: Training documents/Classes of Airspace.md
   - vACC policies: 
     - ATS Policy: vACC policies/ATS Policy/ATS Policy.md
     - ATS Training Policy: vACC policies/ATS Policy/ATS Training Policy.md
