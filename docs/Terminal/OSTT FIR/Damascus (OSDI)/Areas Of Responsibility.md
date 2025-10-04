@@ -6,7 +6,8 @@
 
 The AOR for approach within the Damascus TMA have been specifically design to elimiate procedural services as much as possible, relying on radar as this offers much more accurate position tracking.
 
-**The AOR must be strictly adhered to in order to ensure smoothest and most efficient operations within Damascus TMA**
+!!! warning
+    The AOR within the Damascus TMA must be strictly adhered to as they are specially designed to limit the procedural airspace available.     
 
 The AOR on the sector file will be automatically shaded once you connect, so it will be easily identifiable. Vertical limits to AOR is also applicable, to be reminded, the Damascus TMA goes from **1000ft** to **FL155**.
 
