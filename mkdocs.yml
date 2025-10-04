@@ -25,7 +25,7 @@ theme:
       accent: deep orange
 
   logo: assets/logobg.ico
-  favicon: assets/logobg.ico
+  favicon: assets/img/logobg.ico
   
   features:
     - navigation.instant
@@ -163,4 +163,3 @@ markdown_extensions:
   - md_in_html: {} #enables the use of image figures
   - abbr: {}
   - pymdownx.snippets: {}
-  - del_ins: {}
