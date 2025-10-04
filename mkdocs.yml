@@ -25,7 +25,7 @@ theme:
       accent: deep orange
 
   logo: assets/logobg.ico
-  favicon: assets/logobg.ico
+  favicon: assets/img/logobg.ico
   
   features:
     - navigation.instant
