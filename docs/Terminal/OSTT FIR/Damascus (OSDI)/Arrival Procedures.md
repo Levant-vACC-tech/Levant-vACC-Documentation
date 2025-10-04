@@ -60,3 +60,27 @@ Descent clearances shall be issued accordingly given traffic circumstances. Cont
 
 ## Final Approach Sequencing
 
+Descent for final approach shall be to the appropriate altitude, in this case, **3600ft** for all runways in OSDI.
+
+Clearances to descend below the platform altitude is not permitted, as the platform altitude is equal to the minimum radar maneuvering altitude.
+
+## Separation requirements on final
+
+The minimum longitudinal separation of **5NM** shall be applied between arriving aircraft, however, this may be reduced to **3NM** in high volume environments.
+
+### Low visibility operations (LVO)
+
+When operating under LVO conditions, minimum longitudinal separation of **7NM** shall always be applied between arriving aircraft.
+
+## Direct Routings
+
+Unless coordinated, direct routings within Damascus TMA is only permitted within their designated AOR. If a direct routing is given, special care shall be given to ensure that no potential conflicts shall arise.
+
+| STAR | Direct to |
+| ---- | --------- |
+| BRAVO1C | RDIMA |
+| KILO1C | SOFIA |
+| LIMA1C | N/A |
+| SEIRA1C | SOFIA |
+| TANGO1C | N/A |
+
