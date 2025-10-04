@@ -83,7 +83,10 @@ nav:
       - Beirut (OLBA): Aerodromes/OLBB FIR/Beirut (OLBA)/Beirut.md
     - ORBB FIR:
       - Al-Najaf (ORNI): Aerodromes/ORBB FIR/Al-Najaf (ORNI)/Al-Najaf.md
-      - Baghdad (ORBI): Aerodromes/ORBB FIR/Baghdad (ORBI)/Baghdad.md
+      - Baghdad (ORBI): 
+        - Document Information: Aerodromes/ORBB FIR/Baghdad (ORBI)/info.md
+        - 1. Aerodrome Information: Aerodromes/ORBB FIR/Baghdad (ORBI)/aerodrome.md
+        - 2. Areas of Responsibility: Aerodromes/ORBB FIR/Baghdad (ORBI)/aor.md
       - Basra (ORMM): Aerodromes/ORBB FIR/Basra (ORMM)/Basra.md
       - Erbil (ORER): Aerodromes/ORBB FIR/Erbil (ORER)/Erbil.md
       - Kirkuk (ORKK): Aerodromes/ORBB FIR/Kirkuk (ORKK)/Kirkuk.md
@@ -104,7 +107,12 @@ nav:
       - Baghdad TMA  (Baghdad Approach): Terminal/ORBB FIR/Baghdad Approach (ORBI_APP)/ORBI_APP.md
       - Ali TMA (Baghdad Approach): Terminal/ORBB FIR/Baghdad Approach (ORMM_APP)/ORMM_APP.md
     - OSTT FIR:
-      - Damascus Approach (OSDI_APP): Terminal/OSTT FIR/Damascus (OSDI)/Damascus.md
+      - Damascus Approach (OSDI_APP): 
+        - Document Information: Terminal/OSTT FIR/Damascus (OSDI)/Document Information.md
+        - General Information: Terminal/OSTT FIR/Damascus (OSDI)/General Information.md
+        - General Procedures: Terminal/OSTT FIR/Damascus (OSDI)/General Procedures.md
+        - Areas Of Responsibility: Terminal/OSTT FIR/Damascus (OSDI)/Areas Of Responsibility.md
+
       - Aleppo Radar (OSAP_APP): Terminal/OSTT FIR/Aleppo (OSTT)/Aleppo.md
   - Enroute:
     - Overview: Enroute/index.md
