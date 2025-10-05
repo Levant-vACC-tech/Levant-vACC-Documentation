@@ -43,88 +43,41 @@ Departing aircraft shall be instructed to report ready for pushback.
 ### 3.2.3 Aircraft requiring a reroute
 If an aircraft requires a reroute, they shall be informed of such as soon as they have connected to the network by private message or on frequency. 
 
-An aircraft shall be issued a reroute by delivery if the pilot’s route doesn’t comply with the standard routes laid out in Table 3-2.
+An aircraft shall be issued a reroute by delivery if the pilot’s route doesn’t comply with the standard routes laid out in Table 3-1.
 
 ## 3.3 Departure Procedures
-### 3.3.1 RNAV Standard instrument departures
-Al Maktoum primarily uses RNAV standard instrument departures (SIDs) and is the preferred departure type for IFR aircraft. Departing aircraft shall be assigned an appropriate RNAV departure according to the first fix in the flight plan and runway(s) in use.
+### 3.3.1 Radar departures
+At Baghdad there are no RNAV standard instrument departure procedures, thus aircraft are not given any departure procedures in there initial clearance with delivery (or ground).
 
-Departures from runway 12/30 shall be assigned an initial climb of 3000ft. Departures from runway 13/31 shall be assigned an initial climb of 2000ft.
-
-<figure markdown>
-| First Fix |    30   |    12   |    31   |    13   |
-|:---------:|:-------:|:-------:|:-------:|:-------:|
-|   ANVIX   |    4L   |    6J   |    1P   |    2N   |
-|   DAVMO   |    4L   |    5J   |         |         |
-|   EMERU   |    1L   |    3J   |         |         |  
-|   KUTLI   |    3L   |    4J   |         |         |
-|   MIROT   |    3L   |    4J   |    1P   |    1N   |
-|   NABIX   |    3L   |    4J   |    1P   |    1N   |
-|   NOLSU   |    3L   |    3J   |         |         |
-|   RIDAP   |    3L   |    4J   |         |         |
-|   SENPA   |    3L   |    4J   |         |         |
-
-  <figcaption>Table 3-1: RNAV SIDs</figcaption>
-</figure>
-
-### 3.3.2 Radar departures
-The radar departure procedure shall be used when aircraft are unable to accept an RNAV departure, such as one with outdated nav data. Whereas RNAV departures follow a prescribed track until leaving the Dubai Departures airspace, radar departures are given radar vectors to the first fix.
-
-In the take-off clearance, Air Control (AIR) shall assign a heading to fly after departure appropriate to the Dubai CTA exit point.
-
-A radar departure clearance shall contain the following information:
-
-- Callsign;
-- Destination;
-- Departure instructions;
-- Initially cleared altitude;
-- Frequency handoff;
-- Assigned SSR code
-
-!!! note
-      Aircraft on a radar departure shall have the text *VECTORS* inserted to the scratchpad section of their entry on the departure list.
+In the take-off clearance, Baghdad Tower (ORBI_TWR) shall assign a heading to fly after departure and initial climb, aswell as a "turn altitue" appropriate to the Baghdad TMA exit point.
 
 ## 3.4 Rerouting aircraft
-An aircraft shall be issued a reroute by GMP if the pilot’s route doesn’t comply with the standard routes laid out in Table 3-2. 
+An aircraft shall be issued a reroute by delivery if the pilot’s route doesn’t comply with the standard routes laid out in Table 3-1. 
 
-Several routing restrictions exist within UAE airspace and must be complied with when issuing a departure clearance.
+Several routing restrictions exist within Iraqi airspace and must be complied with when issuing a departure clearance.
 
-!!! example
-    **Controller**: "UAE9824, cleared to Amman, via SENPA3L, SENPA N571 ALPOB L768 ULADA, flight planned route. Maintain 3000ft, squawk 0553."
+!!! example   
+    **Controller**: "IAW123, cleared to Dubai, NOLDO, P975, SESRU, flight planned route, squawk 0553."
 
 !!! note
-    The Arabian vACC Operations Department maintains an up-to-date route database on SimBrief. These routes can be accessed by selecting the ***"User Submitted Routes"*** option, highlighted in purple, when planning a flight.
+    The Levant vACC Operations Department maintains an up-to-date route database on SimBrief. These routes can be accessed by selecting the ***"User Submitted Routes"*** option, highlighted in purple, when planning a flight.
 
 <figure markdown>
-| Destination                                                    | Level Restrictions           | Routing                                      |
-|---------------------------------------------------------------|-----------------------------|----------------------------------------------|
-| Tehran FIR Northbound (including OIKB)                        | -                           | DAVMO M318 GABKO                             |
-| Landing OOMS, transiting Muscat FIR Eastbound and Southeast bound | -                        | ANVIX L223 TARDI                             |
-| Transiting Sanaa FIR and Jeddah FIR                            | -                           | SENPA N571 ALPOB                             |
-| Transiting Sanaa FIR and Jeddah FIR                            | -                           | ANVIX R401 GIDIS G783 TANSU                  |
-| Transiting Sanaa FIR and Jeddah FIR                            | -                           | ANVIX R401 GIDIS G783 RIGIL M628 PEKEM       |
-| Transiting Sanaa FIR and Jeddah FIR                            | -                           | KUTLI L519 ATUDO M318 KATIT                  |
-| Transiting Sanaa FIR and Jeddah FIR                            | -                           | KUTLI L519 ATUDO M318 GOLGU                  |
-| Transiting Bahrain FIR onwards landing/transiting Kuwait, Baghdad, and Tehran FIRs | - | RIDAP M557 TUMAK                             |
-| Transiting Bahrain FIR onwards landing/transiting Jeddah FIR (including OERK, OEJN) | - | SENPA N571 ALPOB                             |
-| Landing within Bahrain FIR (including OBBI, OEDF, OEDR)        | Max FL260                   | NABIX P699 ORMID                             |
-| Landing within Doha TMA (OTHH, OTBD)                           | Max FL260                   | NABIX P699 OXARI M430 TOSNA                  |
-| Landing within Doha TMA (OTHH, OTBD)                           | Max FL260                   | MIROT Q576 RORON M430 TOSNA                  |
-| Landing OIII & OISS                                            | -                           | DCT KUMUN                                    |
-| Landing OIBK                                                   | -                           | RIDAP M557 TOTKU DCT KIVUS DCT LUDAM DCT ORSAR|
-| Landing OOSH                                                   | At 11,000ft only            | ANVIX L223 TARDI                             |
-| Landing OOSA, transiting Muscat FIR Southbound and Southwest bound | -                        | ANVIX R401 GIDIS G783 UKRAG L710 MEMTU       |
-| Transiting Muscat FIR Eastbound onwards landing/transiting Karachi and Mumbai FIRs | - | IVURO M677 LALDO                             |
-| Transiting Muscat FIR Eastbound onwards landing/transiting Karachi and Mumbai FIRs | - | IVURO M428 GOMTA                             |
-| Landing OMAA & OMAD                                            | Max 10,000 ft               | DCT EMERU                                    |
-| Landing OMAL                                                   | -                           | DCT ANVIX R401 GIDIS G783 VAVIM              |
-| Landing OMSJ, OMDB, OMRK, and OMFJ                             | Max 7,000 ft (Radar Departure) | DCT (RADAR VECTORS)                       |
+| Destination                                                    | Level Restrictions          | Routing                                      |
+|----------------------------------------------------------------|-----------------------------|----------------------------------------------|
+| North                                                          | -                           | BGD DCT NAMDI M860 NINVA                     |
+| North                                                          | -                           | BGD DCT TAGRU L718 KABAN                     |
+| East                                                           | -                           | BGD DCT NOLDO B411 PAXAT                     |
+| South                                                          | -                           | BGD DCT NOLDO P975 SIDAD                     |
+| Southwest                                                      | -                           | BGD DCT DELMI DCT RUKAM B411 MURIB           |
+| West                                                           | -                           | BGD DCT DELMI G202 MODIK                     |
+| West                                                           | -                           |BGD DCT DELMI G202 RAPLU R652 GIBUX L200 PASIP|
 
-  <figcaption>Table 3-2: Standard routes</figcaption>
+  <figcaption>Table 3-1: Standard routes</figcaption>
 </figure>
 
 !!! info 
-      Should an aircraft file an invalid cruise level, GMC shall advise the aircraft of this when delivering the clearance. In **all** cases, the next lowest valid cruise level should be assigned and the aircraft advised.
+      Should an aircraft file an invalid cruise level, delivery shall advise the aircraft of this when delivering the clearance. In **all** cases, the next lowest valid cruise level should be assigned and the aircraft advised.
 
 !!! note
       Offering two valid levels (one above and below their requested level) is discouraged; a lower level than what is requested can be complied with certainty factoring the aircraft's maximum capable cruise level as per their gross weight. On the other hand, higher levels may be rejected due to aircraft performance or maximum cruise altitude capabilities.
@@ -133,12 +86,10 @@ Several routing restrictions exist within UAE airspace and must be complied with
 
 
 ## 3.5 Runway change procedure
-Runway change shall be coordinated with Al Maktoum AIR
+Runway change shall be coordinated with Baghdad tower (ORBI_TWR).
 
 ## 3.6 VFR aircraft
-VFR flight activity should be planned in accordance to published VFR charts, specifically the “**Dubai CTA VFR**” chart for VFR traffic navigating out of the Al Maktoum CTR into neighbouring airspaces and within the Al Maktoum control zone. GMC may use the appropriate charts as per the requirements of the pilot’s intentions in accordance with 2.6.1, 3.6.2 and 3.6.3.
-
-At any time, AIR control and Approach/Departure control may impose partial or full restrictions to VFR operations out of OMDW during periods of increased IFR activity or due to restrictions and limitations to aircraft type. It is imperative that GMC is in continuous coordination with AIR control and Approach/Departure control for departing VFR traffic.
+VFR aircraft must be coordinated with tower before receiving any clearance, tower may instruct delivery to provide the VFR clearance or delivery to inform the aircraft to "expect clearance at holding point".
 
 ### 3.6.1 VFR departures into uncontrolled airspace
 VFR traffic shall be cleared via the most appropriate VFR route towards their destination. If necessary, the clearance may be amended by AIR prior to departure.
